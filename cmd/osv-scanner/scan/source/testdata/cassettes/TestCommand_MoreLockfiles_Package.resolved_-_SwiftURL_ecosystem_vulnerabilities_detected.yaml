@@ -35,6 +35,54 @@ interactions:
       proto: HTTP/2.0
       proto_major: 2
       proto_minor: 0
+      content_length: 119
+      body: |
+        {
+          "code": 14,
+          "message": "upstream connect error or disconnect/reset before headers. reset reason: connection termination"
+        }
+      headers:
+        Content-Length:
+          - "119"
+        Content-Type:
+          - application/json
+      status: 503 Service Unavailable
+      code: 503
+      duration: 0s
+  - request:
+      proto: HTTP/1.1
+      proto_major: 1
+      proto_minor: 1
+      content_length: 320
+      host: api.osv.dev
+      body: |
+        {
+          "queries": [
+            {
+              "package": {
+                "ecosystem": "SwiftURL",
+                "name": "github.com/apple/swift-nio-http2"
+              },
+              "version": "1.19.1"
+            },
+            {
+              "package": {
+                "ecosystem": "SwiftURL",
+                "name": "github.com/pytorch/executorch"
+              },
+              "version": "0.6.0"
+            }
+          ]
+        }
+      headers:
+        Content-Type:
+          - application/json
+      url: https://api.osv.dev/v1/querybatch
+      method: POST
+    response:
+      proto: HTTP/2.0
+      proto_major: 2
+      proto_minor: 0
       content_length: 940
       body: |
         {
@@ -75,15 +123,15 @@ interactions:
               "vulns": [
                 {
                   "id": "GHSA-84m3-f99p-cqx5",
-                  "modified": "2026-06-29T12:26:32.919067Z"
+                  "modified": "2026-10-27T16:45:04.578480Z"
                 },
                 {
                   "id": "GHSA-9m39-3mf3-xwch",
-                  "modified": "2026-06-29T12:26:17.882155Z"
+                  "modified": "2026-10-27T16:45:04.555623Z"
                 },
                 {
                   "id": "GHSA-f9hx-c6jf-3qxm",
-                  "modified": "2026-06-29T12:26:29.765857Z"
+                  "modified": "2026-10-27T16:45:04.555731Z"
                 },
                 {
                   "id": "GHSA-h952-963h-rv99",
@@ -91,11 +139,11 @@ interactions:
                 },
                 {
                   "id": "GHSA-hj95-mhgf-jxc4",
-                  "modified": "2026-06-29T12:26:26.721719Z"
+                  "modified": "2026-10-27T16:45:04.544792Z"
                 },
                 {
                   "id": "GHSA-xc7w-r669-48pf",
-                  "modified": "2026-06-29T12:26:16.176986Z"
+                  "modified": "2026-10-27T16:45:04.559235Z"
                 }
               ]
             }
