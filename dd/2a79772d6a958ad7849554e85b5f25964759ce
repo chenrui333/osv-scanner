@@ -1,0 +1,16 @@
+pkg/osvscanner/scan.go
+  h_9df9c32c3f321d 234,332-335,493-521,607
+pkg/osvscanner/scan_test.go
+  h_9df9c32c3f321d 4,221-272
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "dd2a79772d6a958ad7849554e85b5f25964759ce",
+  "prompts": {},
+  "humans": {
+    "h_9df9c32c3f321d": {
+      "author": "Rui Chen <rui@chenrui.dev>"
+    }
+  }
+}
