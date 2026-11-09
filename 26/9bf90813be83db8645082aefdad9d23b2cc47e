@@ -1,0 +1,17 @@
+pkg/osvscanner/scan.go
+  h_9df9c32c3f321d 333-335,339
+  h_9df9c32c3f321d 336-338,343
+pkg/osvscanner/scan_landlock_linux_test.go
+  h_9df9c32c3f321d 1-123
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "269bf90813be83db8645082aefdad9d23b2cc47e",
+  "prompts": {},
+  "humans": {
+    "h_9df9c32c3f321d": {
+      "author": "Rui Chen <rui@chenrui.dev>"
+    }
+  }
+}
